@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+canvas {
+    display: block;
+}
+
+h1 {
+    position: absolute;
+    color: #d1d1e0;
+    top: 2.5em;
+    left: 4em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3.5em;
+    width: auto;
+    line-height: .8em;
+    padding: .2em;
+}
+
+p {
+    position: absolute;
+    color: #d1d1e0;
+    top: 50%;
+    left: 50%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.8em;
+    width: auto;
+    line-height: .8em;
+    padding: .2em;
+}
+
+#span button {
+    font-size: .8em;
+    padding: 15px;
+}
+
+footer {
+    position: absolute;
+    color: #d1d1e0;
+    top: 90%;
+    left: 60%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+    width: auto;
+    line-height: .8em;
+    padding: .2em;
+}
