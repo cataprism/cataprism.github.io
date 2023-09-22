@@ -74,8 +74,8 @@ var scene = new THREE.Scene();
                 this.tl = new TimelineMax();
                 this.tl.to(intersects[i].object.scale, 1, {x: 1.1, y: 1.1, z: 1.1, ease: Expo.easeOut});
                 this.tl.to(intersects[i].object.scale, 1, {x: 0.9, y: 0.9, z: 0.9, ease: Expo.easeOut});
-                this.tl.to(intersects[i].object.position, .5, {z: randomNum, ease: Expo.easeOut});
-                this.tl.to(intersects[i].object.rotation, .5, {y: Math.PI*.5, ease: Expo.easeOut}, "=-1.5");
+                this.tl.to(intersects[i].object.position, .5, {z: intersects[i].object.position.z + randomNum, ease: Expo.easeOut});
+                this.tl.to(intersects[i].object.rotation, .5, {y: intersects[i].object.rotation.y + Math.PI*.5, ease: Expo.easeOut}, "=-1.5");
             }
         }
 
